@@ -34,6 +34,7 @@
             <li><a href="kintil.html#login">Account</a></li>
             <li><a href="kintil.html#image">image and videos</a></li>
             <li><a href="kintil.html#mp3"> Musik Audio</a></li>
+            <li><a href="kintil.html#modern"> HTML Modern</a></li>
           </ul>
 
           <style>
@@ -406,6 +407,121 @@
             <p><audio src="MP3/Y2meta.app - INTERWORLD - METAMORPHOSIS 3 (slowed + reverb) (320 kbps).mp3" controls preload="none"></audio></p>
             <p><b><u><i>3. Suzume No Tojimari</i></u></b></p>
             <p><audio src="MP3/y2mate.com - Suzume no Tojimari すずめ Theme Song Suzume Ru Ru RuRuRuRu loop_320kbps.mp3" controls preload="metadata"></audio></p>
+
+            <hr>
+
+            <h2 id="modern" style="font-family: Arial, Helvetica, sans-serif; text-align: center; text-decoration: underline; text-shadow: 2px 2px 5px cyan; color: crimson; font-size: xx-large;">HTML Modern</h2>
+
+            <div class="html1" style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;">
+               <details>
+                  <summary>HTML 5</summary>
+                  <p>HTML5 is the latest version of the HTML standard, defining new elements, attributes, and APIs to improve interactivity, accessibility, and performance on the web. </p>
+                  <p>Some of the new elements and features include:</p>
+                  <ul>
+                     <li>Canvas element for creating graphics using JavaScript</li>
+                     <li>WebRTC API for real-time communication</li>
+                     <li>Web Workers for background processing</li>
+                     <li>Web Audio API for audio and audio processing</li>
+                     <li>Web Components for reusable UI components</li>
+                  </ul>
+                  <p>HTML5 is supported by all major web browsers, including Chrome, Firefox, Safari, and Edge.</p>
+               </details>
+            </div>
+
+            <div class="html-2" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 10px;">
+               <button popovertarget="target" style="font-size: x-large;">bunga mawar bunga putik</button>
+               <div id="target" style="font-size: xx-large; color: black; font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 2px 2px 5px rgba(255, 0, 242, 0.884); background-color: bisque;" popover >Haaloo Cantik</div>
+            </div>
+
+            <div id="html-3" style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;" inert>
+               <details>
+                  <summary>don't open</summary>
+                  fuck you
+               </details>
+            </div>
+
+            <div id="html-4" style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;">
+               <input type="color" name="warna" id="warna">
+               <label for="warna">pilih warna</label>
+            </div>
+
+            <div id="html-5" style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;">
+               <label for="pilih-anime-favorit">pilih anime favorit kalian</label>
+               <input list="daftar-anime" id="pilih-anime-favorit" name="pilih-anime-favorit">
+
+             <datalist id="daftar-anime">
+               <option value="Boku No Pico"></option>
+               <option value="Yarichin"></option>
+               <option value="Futabu"></option>
+               <option value="Goblin Slayer"></option>
+               <option value="Metamorphosis"></option>
+             </datalist>   
+            </div>
+
+            <div id="html-6" style="margin-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large;">
+               <label for="foto">Ambil Foto</label>
+               <input type="file" accept="image/*" capture="environment">
+               <p style="font-size: large; margin-top: auto;">belum terbukti bisa poto langsung lewat kamera laptop</p>             
+            </div>
+
+            <!-- buat ngaca di laptop ini caranya :
+
+             <video id="videoElement" autoplay></video>
+
+<script>
+  const video = document.querySelector("#videoElement");
+
+  if (navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then((stream) => {
+        video.srcObject = stream;
+      })
+      .catch((err) => {
+        console.log("Something went wrong!", err);
+      });
+  }
+</script>
+      
+            -->
+
+            <div id="html-7" style="margin-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: x-large;">
+               <p>Dialog</p>
+            <dialog id="dialog">
+               <h1 style="color: black;">si NIGGA</h1>
+               <form method="dialog">
+                  <button type="button" id="btn-done">Done</button>
+               </form>
+            </dialog>
+
+
+            <button type="button" id="btn-click">click</button>
+            </div>
+
+            <script>
+               const dialog = document.getElementById("dialog");
+               const showbtn = document.getElementById("btn-click");
+               const closebtn = document.getElementById("btn-done");
+
+               showbtn.addEventListener("click", ()=> {
+                  dialog.showModal();
+               });
+
+               closebtn.addEventListener("click", ()=>{
+                  dialog.close();
+               });
+            </script>
+
+            
+
+            
+
+
+
+            
+
+
+
+            
 
                    
 
