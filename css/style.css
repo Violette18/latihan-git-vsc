@@ -267,7 +267,102 @@ text-decoration: none
 }
 
 
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  width: 240px;
+  height: 180px;
+  border: 2px solid red;
+}
+/* width:"100px width + 20*2 border + 10*2 padding + 20*2 margin =200px" */
 
 
+.content{
+  font-size: 36px;
+  background-color: bisque;
+  text-align: center;
+}
 
-  
+.content{
+  width: 100px;
+  height: 36px;
+  border: 20px solid red;
+  padding: 10px;
+  margin: 40px;
+}
+
+.border1-groove{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px groove cyan;
+  font-size: xx-large;
+  color: yellowgreen;
+  text-align: left;
+  border-bottom-width: 4px;
+}
+
+.border1{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid red;
+  font-size: xx-large;
+  color: blueviolet;
+  text-align: left;
+  border-bottom-width: 4px;
+}
+
+.borderpatas{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top-style: solid;
+  border-top-width: 4px;
+}
+
+.borderpkiri-double{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-left-style: double;
+  border-left-width: 4px;
+  border-color: crimson;
+}
+
+.borderpbawah-dotted{
+  border-bottom-style: dotted;
+  border-bottom-width: 4px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: red;
+}
+
+.borderpkanan-dashed{
+  border-right-style: dashed;
+  border-right-width: 4px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: green;
+}
+
+.border2-size{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: black;
+  border: solid cyan;
+  /*seluruhnya sama*/
+  border-width: 20px ;
+}
+
+.border3-size{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: black;
+  border: solid cyan;
+  /*untuk kiri kanan aja*/
+  border-width: 20px 5px;
+}
+
+.border4-size{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: black;
+  border: solid cyan;
+  /*berurutan = atas, kanan, bawah, kiri*/
+  border-width: 5px 10px 15px 20px;
+}
