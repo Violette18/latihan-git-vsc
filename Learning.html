@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link> rel="stylesheet" href="css/....css"> -->
+
+    <style type="text/css">
+
+        /* internal CSS */
+
+h1 {
+            color: rgba(255, 0, 221, 0.801);
+            font-size: 100px;
+            text-align: center;
+            margin-top: 25px;
+            font-style: italic;
+            font-weight: lighter;
+            text-transform: capitalize;
+        }
+        
+        .jomok{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        b.jomok{
+            font-size: 24px;
+            color: blue;
+        }
+
+        i.jomok{
+            font-style: oblique;
+            font-size: 18px;
+            background-color: aqua;
+        }
+
+        .internal{
+            color: darkcyan;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: xx-large;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #js{
+            color: green;
+            font-size: 36px;
+            text-decoration: overline;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+
+    </style>
+            
+    
+</head>
+
+<body>
+
+    <h1>Belajar CSS</h1>
+
+    <h2 class="internal">1. Internal CSS</h2>
+
+    <p class="jomok"><b class="jomok">Tama</b> dan <i class="jomok">KING Dika</i> sedang jajan di kantin</p>
+
+    <h2 id="js">Tes</h2>
+
+    <h2 class="eksternal">2. Eksternal css</h2>
+
+    <p class="saudara"><b class="saudara">Madinah</b> dan <i class="saudara">Eka</i> adalah kakak beradik</p>
+
+    <h2 class="Anime" >3. CSS Selector</h2>
+
+    <p id="para">Jadi gua sekarang mau merekomendasikan beberapa <b>anime</b> yang sudah gua kelompokkan ke masing-masing <i><b>genre</b></i>,<span class="list"> berikut adalah list animenya :</span></p>
+
+    <h3>Anime genre Action :</h3>
+    <ul>
+        <li id="SUS">Boku No Pico</li>
+        <li>Katainaka <b>Russian</b></li>
+        <li>daisuki na haha</li>
+    </ul>
+
+    <h3>Anime Genre Horor :</h3>
+    <p>sesat</p>
+    <p>menyesatkan</p>
+    <ol>
+        <li> Yarichin</li>
+        <li> Yosuga no Sora</li>
+        <li id="SUS"> Futabu </li>
+    </ol>
+
+    <div class="intro">
+        <h2 class="ik">Inheritance</h2>
+        <h3 class="ir">iseng iseng aja</h3>
+        <p id="pendahuluan">
+            gua kagak tau harus apa sekarang, tapi gua pengen cerita <i>sebuah kisah</i> seorang <b>monster</b>
+        </p>
+        <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="fucek">Sit laboriosam enim velit labore iure id dolore quasi nisi, consequuntur nulla tenetur!</span> Laborum, iste tempora voluptatem hic maiores commodi aspernatur quis?</p>
+    </div>
+
+    <h3>overflow</h3>
+    <p  class="overflow">Lorem ipsum dolor sit amet consectetur adipisicing elit. A odit sequi officia totam fugit! Explicabo, veniam ipsum vel eius molestias non maiores voluptatum libero quaerat minus quisquam. Quisquam, nisi impedit?</p>
+    <h3>yarichin</h3>
+    <p  class="yarichin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, fuga alias quod quaerat exercitationem tempore, eum tempora pariatur dicta nemo repudiandae nulla ipsum nobis ab omnis esse atque iste inventore!</p>
+
+    <hr>
+
+    <div class="fav">
+        <h1 class="Animespx">Spy X Family</h1>
+        <br>
+        <img class="gambar" src="img/poster Spy X family.jpg" alt="poster Spy X Family" title="the happy family">
+        <h3 class="credit">oleh: tatsuya endo</h3>
+        <p id="baca">Berikut adalah link membaca Manga Spy X Family secara gratis di <a class="link" href="https://mangaku.lat/komik/spy-x-family/">SPY X Family</a></p>
+        <p class="sinopsis1">Sinopsis</p>
+        <p class="sinopsis">Spy X Family mengisahkan seorang agen mata-mata terbaik Westalis dengan kode Twilight (Senja/Tasogare). Ia digambarkan dengan wajah tampan, namun memiliki kemampuan berubah-ubah wajah dengan menggunakan topeng.Twilight kini tengah menjalankan operasi Strix, misi tingkat S untuk memata-matai wilayah Ostania yang dipimpin Donovan Desmond. Untuk keberhasilan misi tersebut, Twilight menyamar sebagai seorang dokter psikologi bernama Loid Forger.</p>
+        <p class="sinopsis">Tidak hanya itu, Loid juga membentuk keluarga palsu dengan Anya sebagai anak dan Yor Brian sebagai ibu. Namun, tanpa diketahui Loid, keluarganya memiliki kemampuan luar biasa. Pertama, Anya adalah seorang esper yang mampu membaca pikiran orang lain. Kedua, Yor Brian selaku istri merupakan pembunuh bayaran yang terkenal dalam keberhasilan dalam menuntaskan misinya.</p>
+
+        <p class="daftar_chapter">Berikut adalah beberapa chapter nya :</p>
+
+        <table class="daftar">
+            <th class="heading">No.</th>
+            <th class="heading">chapter</th>
+            <th class="heading">kisah</th>
+
+                <tr>
+                    <td>1</td>
+                    <td><a class="link_chapter" href="https://mangaku.lat/spy-x-family-chapter-01-bahasa-indonesia/">Chapter 1</a></td>
+                    <td class="kisah">Dia adalah mata-mata, dia tidak pernah terlihat oleh matahari, dia akan selalu menjadi bayangan. Sang pahlawan tidak dikenal, <span class="bold">Code: Twilight </span> atau biasa dipanggil <span class="italic"><abbrv title="fake name">Loid Forger</abbrv></span>. Loid Forger bertemu dengan seorang gadis kecil nan imut yang bernama <span class="italic">Anya</span> di sebuah panti asuhan kecil. Anya memiliki masa lalu yang sangat kelam, ia menjadi salah satu anak yatim piatu yang menjadi salah satu korban kekejaman dari Jerman Timur pada saat itu, Anya menjadi salah satu uji coba manusia super di lab pemerintahan oleh karena itu Anya memiliki kekuatan <span class="bold">Esper</span> yang mampu membaca pikiran mahluk hidup lainnya.
+                    </td>
+                   </tr>
+        
+                   <tr>
+                    <td>2</td>
+                    <td><a class="link_chapter" href="https://mangaku.lat/spy-x-family-chapter-02-bahasa-indonesia/">Chapter 2</a></td>
+                    <td class="kisah">Ia bagaikan Iblis yang menyerupai Bidadari yang turun dari Surga, ia memiliki rupawan yang sangat cantik dan keanggunan yang tidak ada bandingannya, ia memiliki kepribadian yang pendiam dan baik hati, sekaligus kejam. Kekuatan fisiknya melebihi kemampuan manusia biasa pada umumnya, pekerjaannya adalah menjadi pegawai negeri sipil biasa, tapi yang tidak semua orang tahu adalah ia memiliki pekerjaan sampingan yaitu menjadi Pembunuh Bayaran. Ia adalah <span class="bold">Thorn Princess</span> atau biasa dipanggil <span class="italic">Yor Briar.</span></td>
+                   </tr>
+        
+                   <tr>
+                    <td>3</td>
+                    <td><a class="link_chapter" href="https://mangaku.lat/spy-x-family-chapter-17/">Chapter 17</a></td>
+                    <td class="kisah">Keberaniannya bagaikan seekor naga yang siap mati untuk menyerang seluruh penduduk bumi, kecerdikannya bagaikan seorang filsafat, ia mampu <span class="italic">menerawang masa depan</span> dengan kekuatan uniknya. Ia adalah <span class="bold">Bond</span>, seekor anjing bertubuh besar yang menjadi salah satu kekejaman uji coba kekuatan hewan oleh pemerintahan Jerman Timur pada saat itu. </td>
+                   </tr>
+                </table>
+
+
+    </div>
+
+        
+   
+
+
+
+    
+</body>
+</html>

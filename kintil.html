@@ -1,0 +1,437 @@
+    <!DOCTYPE html> <!--ini itu wajib sebelum mulai ygy  --> 
+
+ <html> <!--kolom semesta -->
+
+   <head>  <!--muncul di situs atas web-->
+
+       <title>HELLO WORLD!</title> <!--kalo mau nulis bagian head wajib ada <title><title/> -->
+
+   </head>
+
+   <body> <!--isi dalam web  -->
+
+      <h4> Link ke halaman sendiri</h4>
+
+         <ul>
+            <li><a href="kintil.html">Basecamp</a></li>  <!-- kalau di basecamp ga perlu pakai ../, tetapi jika di folder yang diarsipkan maka folder basecamp memerlukan ../-->
+             <li><a href="planet/mars.html">Mars</a></li> <!--kalau di basecamp memerlukan data lokasi folder/ , tetapi jika berada di data yang termasuk folder yang sama maka tidak memerlukan data lokasi folder/ -->
+             <li><a href="Learning.html">Belajar HTML</a></li>
+         </ul>
+
+      <h4> Link E-mail</h4> 
+
+          <a href="mailto:ikhsanrasyidr4@gmail.com">E-mail ke Johan</a> <!--untuk email-->
+
+          <h3> <i><u>Loncat ke Halaman : </u></i></h3>
+          <ul>
+            <li><a href="kintil.html#web belajar">Website Belajar</a></li>
+            <li><a href="kintil.html#informasi">Informasi Pengetahuan</a></li>
+            <li><a href="kintil.html#perintah">Peraturan</a></li>
+            <li><a href="kintil.html#informasi pribadi">informasi penulis web</a></li>
+            <li><a href="kintil.html#List">beberapa List</a></li>
+            <li><a href="kintil.html#membaca">Literasi</a></li>
+            <li><a href="kintil.html#tabel">Tabel Angka</a></li>
+            <li><a href="kintil.html#login">Account</a></li>
+            <li><a href="kintil.html#image">image and videos</a></li>
+            <li><a href="kintil.html#mp3"> Musik Audio</a></li>
+          </ul>
+
+          <style>
+            h1{
+                color: red;
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bold;
+            }
+          </style>
+         <h1><u><i>welcome to my first web</i></u></h1> <!--<h1></h1> untuk Judul, subjudul dan huruf besar lainnya, bisa dipakai hingga <h6></h6> -->
+
+         <h2 id="web belajar">berikut beberapa web yang bisa kalian <br/> gunakan untuk belajar :</h2>
+         <style>
+            h2
+            {
+                color: blue;
+                text-align: center;
+                font-size: x-large;
+                font-weight: bold;
+                font-style: italic;
+            }
+         </style>
+          <!-- tes -->
+         
+
+         <h3>1. Google</h3>
+         <p><a href="http://www.google.com">Google</a> adalah salah satu web belajar <i>nomer 1</i> yang dipakai <u>semua orang</u> di dunia ini.</p>  <!--<p></p> digunakan untuk membuat suatu paragraf-->
+
+         <h3>2. Youtube</h3>
+         <p><a href="http://www.Youtube.com">Youtube</a> adalah <u>sekumpulan video tutorial</u> yang <i>sangat berguna bagi kalian yang ingin belajar maupun menshare pembelajaran</i></p>
+
+         <h3>3. Mars </h3>
+         <p> this is my second website <a href="planet/mars.html">Mars</a></p>
+         <!-- <a href="http://"></a> berfungsi untuk memberikan link Website, <a href="mailto:"></a href="mailto:"> berfungsi untuk memberikan link E-mail, <a href="....html#"></a> berfungsi untuk meloncat ke halaman yang ingin ditentukan-->
+         <!-- <b></b> untuk Bold(menghitam pekatkan ketikan) -->
+         <!-- <i></i> untuk Italic(mengganti huruf ketika diubah menjadi miring) -->
+         <!-- <u></u> untuk Underline(menempatkan huruf dalam bentuk garis bawah) -->
+         <!-- <br/> untuk baris baru -->
+         <!-- <sup></sup> untuk membuat huruf menjad ke atas atau biasa disebut kuadrat -->
+         <!-- <sub></sub> untuk membuat huruf menjad ke bawah atau biasa disebut ketebal -->
+         <!-- <hr/> untuk garis horizontal -->
+          
+         <!-- Online CSS, <h1 style="font size:... ;color:...;"></h1> biasa penggunaan tools ini digunakan untuk judul atau paragraf yang fokus ke individu dan sekedar info, tidak direkomendasikan karena bisa terjadi berantakan antara html denan css-->
+          <!--internal css, <style>
+      h1{
+          color: blueviolet;
+          text-align: center;
+          font-size: xx-large;
+          font-weight: bold;
+      }
+    </style> biasa sering digunakan -->
+
+
+         <hr>
+
+         <h2 id="informasi">seputar pengetahuan :</h2>
+
+         <p><b>Albert Einstein</b> adalah seorang ilmuan yang menemukan rumus <br/> E = MC<sup>2</sup>
+
+         <p><b>Karbon Dioksida</b> adalah CO<sub>2</sub> </p>
+
+         <hr/>
+
+         <p id="perintah"><strong>PERHATIAN : Dilarang Merokok di fasilitas umum!</strong></p>  <strong></strong>  <!--biasanya digunakan untuk peringatan dalam web fungsinya mirip dengan Bold-->
+
+         <p><em><strong>DILARANG</strong> membuang sampah sembarangan!</em></p> <!--<em></em> itu untuk memiringkan kata-kata yang fungsinya mirip italic -->
+
+         <p><blockquote><q>Selalulah menjaga kesehatan kalian</q>!</blockquote></p> <!--<blockquote></blockquote> untuk memisahkan tulisan dari paragraf, sedangkan <q></q> untuk menulis tanda petik -->
+
+         <hr>
+
+         <p id="informasi pribadi">I'm Johan, i live in <abbrv title="NAZI">Germany</abbrv>, and my job is a <acronym title="Manipulation">pyschologist</acronym></p>  <!--<abbrrv title=""></abbrrv> dan <acronym></acronym> fungsinya untuk memperjelas singkatan tapi juga bisa untuk menyembunyikan pesan -->
+
+         <p>I watch <dfn>Anime</dfn> By Makoto Shinkai - <cite>Suzume No Tojimari</cite> </p> <!--<cite></cite> dan <dfn></dfn> fungsinya untuk memiringkan kalimat, fungsinya mirip dengan Italic dan <em></em>-->
+
+         <p>Anna is <del>me</del> my <ins>Sister</ins></p>  <!--<del></del> fungsinya adalah untuk mencoret sebuah tulisan sedangkan <ins></ins> untuk memberi garis di bawah tulisan fungsinya mirip dengan underlined-->
+
+         <hr>
+
+         <h2 id="List">Jalur dan alat-alat yang diperlukan untuk ke Dufan</h2>
+
+         <h3><u><em>Jalurnya :</em></u></h3>
+
+         <ol>
+            <li>jalan kaki dari SMPN DUTILAS ke Halte Simpang Buaran</li>
+            <li>Dari Halte Simpang Buaran transit ke Halte Kampung melayu</li>
+            <li> Dari Halte Kampung Melayu turun di Halte Ancol</li>
+            <li> dari Halto Ancol jalan kaki ke pintu Dufan sejauh 700 meter</i>
+               <ol>
+                  <li>Tembuskan di kedua pintu di sebelah kiri</li>
+                  <li>Lalu, jalan kaki ke pintu Dufan di sebelah kanan</li>
+                  <li>Tembuskan di pintu Dufan di sebelah kiri</li>
+                  <li>Tembuskan di pintu Dufan di sebelah kanan</li>
+               </ol>
+         </ol>
+
+         <h3><u><i>Alat-alat yang perlu di bawa :</i></u></h3>
+
+         <ol> 
+            <li> Tas ukuran sedang </li>
+            <li> Baju celana</li>
+            <li> Handuk (optional)</li>
+            <li> Jas Hujan (optional)</li>
+            <li>Uang, kartu Trans, Hansphone</li>
+            <li> Makanan jika jago dalam menyembunyikannya di dalam tas</li>   
+            <ul>
+                <li>Kartu Transaksi</li>
+                <li>Kartu Identitas</li>
+                <li>Sepatu</li>
+                <li>Batik</li>
+                <li>Gelas mineral</li>
+                <li>Tas</li>
+                <li>Kacamata</li>
+            </ul>
+         </ol>
+
+         <!-- <ol></ol> atau biasa disebut ordered list berfungsi untuk memasukkan data-data secara otomatis ke dalam sebuah list dalam berbentuk angka sedangkan <ul></ul> berfungsi untuk menglist juga tetapi dengan blok hitam dengan syarat harus menggunakan <li></li> atau biasa disebut dengan list item untuk melengkapinya -->
+
+         <h3><u><em>saya ingin membeli es krim :</em></u></h3>
+
+         <ul>
+            <li> es krim coklat</li>
+            <li> es krim vanilla </li>
+            <li> es krim kon</li></b>
+            <ol>
+            <li>es krim coklat</li>
+            </ol>
+            <ul>
+                <li>es krim vanilla</li>
+            </ul>
+         </ul>
+
+         <h3><u><i>list game yang saya sukai :</i></u></h3>
+
+         <dl>
+            <dt><i>Mobile Legend</i></dt>
+            <dd> Mobile legend adalah game moba yang paling populer di Negara Indonesia, player pemainnya dari kalangan muda hinnga kalangan tua, biasa dimainkan saat sedang berkumpul untuk meramaikan suasana.</dd>
+
+            <dt><em>Roblox</em></dt>
+            <dd>Roblox adalah game arcade yang di dalamnya masih banyak berbagai jenis permainan multiplayer dari berbagai negara, Roblox mayoritas dimainkan dari kalangan anak kecil dan remaja</dd>
+         </dl>
+
+         <!-- dl fungsinya untuk membuat list yang terhubung. dt adalah list judulnya tapi tidak memakai tanda apapun. dd adalah penjelasan dari list dt -->
+
+         <hr>
+
+         <h2 id="membaca">Literasi</h2>
+
+         <h4><i><u><q>Violet Evergarden</q></u></i></h4>
+
+         <p align="right">Seorang gadis bernama violet Evergarden mendedikasikan hidupnya untuk dibesarkan dalam medan perang sebagai senjata hidup. Namun di dalam semua kekacauan tersebut, tumbuh sebuah rasa spasial yang dimilikinya kepada Gilbert, seorang Mayor dalam pasukannya yang selalu memberikan perhatian kepadanya.</p>
+
+         <p align="justify " >Hingga akhirnya pada suatu pertumpahan darah yang tak bisa dihindari, Violet kehilangan Gilbert sang mayor dan Violet harus kehilangan kedua tangannya. Violet dan tentara perang lainnya mengira bahwa Gilbert sudah mati di medan perang tetapi jasad Gilbert tidak bisa ditemukan. sebelum kehilangan Gilbert, violet mengingat kata-kata terakhir Gilbert. Gilbert mengatakan bahwa ia mencintai violet, namun violet yang seumur hidupnya dihabiskan dalam perang hanya dapat merasakan pedih tanpa bisa menggambarkan apa arti dari cinta itu sebenarnya.</p>
+
+         <p align="right">Perang telah usai, dan violet yang menggunakan tangan palsu seperti boneka diurus oleh Claudia seorang teman lama Gilbert, yang menawarinya pekerjaan sebagai amanuensis (asisten yang menulis dikte atau menyalin manuskrip). Tugas utamanya adalah mengetik atau menulis apapun yang diinginkan klien. Bisa berupa surat, sandiwara, atau transkripsi .</p>
+
+         <p align="justify"> Dengan pekerjaan ini, Violet berharap untuk dapat memahami apa itu 'cinta' selama ia mengungkapkan perasaan orang lain yang dituang dalam surat-surat tersebut dalam pekerjaannya. Violet bertemu dengan berbagai klien dengan permintaan mereka sendiri : Seseorang yang ingin menulis drama, seorang Ibu yang ingin mengirim surat, bahkan seorang tentara yang menyampaikan pesan terakhirnya.</p>
+
+         <p align="right">Orang-orang itu punya sendiri latar belakang dan karakteristik yang berbeda, tetapi violet menunjukkan pribadi yang tenang, anggun, dan tegas. Dia tidak pernah ragu untuk mengatakan apa yang salah atau benar di depan orang lain. Dia selalu menyapa orang dengan sebutan kehormatan, bahkan walaupun orang mengatakan hal-hal yang buruk padanya.</p>
+
+         <!-- <p align="right"></p> berfungsi untuk memindahkan kalimat awal dlam suatu paragraf menuju ke sebelah kiri layar -->
+         <!-- <p align="justify"></p> berfungsi untuk meratakan kalimat agar tidak panjang sebelah -->
+
+         <hr>
+
+         <h2 id="tabel">Tabel Angka</h2>
+
+         <h4><i><u>tabel standard</u></i></h4>
+
+         <table border="1">
+
+            <!-- tr, baris/ke bawah -->
+            <!-- td, data/ke samping -->
+            <!-- th, header/judul kelompok -->
+
+             <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+             </tr>
+
+             <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+             </tr>
+
+            </table>
+
+            <h4><i><u>tabel dengan header</u></i></h4>
+
+            <table border="1">
+
+               <tr>
+                  <th>Senin</th>
+                  <td>10.00</td>
+                  <td>12.00</td>
+                  <td>14.00</td>
+               </tr>
+
+               <tr>
+                  <th>Selasa</th>
+                  <td>11.00</td>
+                  <td>13.00</td>
+                  <td>15.00</td>
+               </tr>
+
+            </table>
+
+            <br>
+
+            <table border="1">
+
+               <th>Senin</th>
+               <th>Selasa</th>
+               <tr>
+                  <td>10.00</td>
+                  <td>12.00</td>
+               </tr>
+
+            </table>
+
+            <br>
+
+            <table border="1">
+
+               <th></th>
+               <th>Senin</th>
+               <tr>
+                  <th>10.00</th>
+                  <td>Berangkat sekolah</td>
+               </tr>
+
+                <tr>
+                  <th>11.00</th>
+                  <td>Mengikuti pelatihan</td>
+               </tr>
+
+            </table>
+
+            <h4><u><i>Alokasi Kolom</i></u></h4>
+
+            <table border="1">
+
+               <th></th>
+               <th>Senin</th>
+               <th>Selasa</th>
+               <tr>
+                  <th>10.00</th>
+                  <td>Berangkat sekolah</td>
+                  <td>pelatihan eskul</td>
+               </tr>
+
+                <tr>
+                  <th rowspan="2">11.00</th> <!-- roswspan berfungsi untuk melengkapi 2 tabel pada kolom th-->
+                  <td colspan="2">Mengikuti pelatihan</td>  <!-- colspan berfungsi untuk melengkapi 2 tabel pada kolom td-->
+               </tr>
+
+               <tr>
+                  <td colspan="2">istirahat</td>
+               </tr>
+                  
+            </table>
+
+            <hr>
+
+            <h2 id="login">Account</h2>
+
+            <form>
+
+               <!-- input type itu digunakan untuk membuat form/data dengan struktur <input type="" name=""  value=""><label for=""></label> <br> dengan berbagai jenis di bawah ini :  -->
+               <!-- radio itu hanya bisa diberi 1 pilihan -->
+               <!-- checkbox itu bisa memilih pilihan lebih dari 1 -->
+               <!-- text itu sebagai tempat mengisi sebuah form/data -->
+               <!-- password itu hanya bisa digunakan untuk mengisi password saja -->
+               <!-- Button itu digunakan untuk tanda memencet seperti tombol submit -->
+                <!-- label untuk ngasih data tambahan informasi biasanya berbarengan dengan input  -->
+                 <!-- cols itu kesamping, rows itu atas dan bawah -->
+                  <!-- select dan option berdampingan untuk bisa memilih salah satu dari beberapa pilihan tersembunyi -->
+
+               Username : <input type="text"> <br>
+               Real name : <input type="text"> <br>
+               Password : <input type="password"> <br>
+               <h4><i>Nihon</i></h4>
+               <input type="radio"  name="WIBU"  value="ya"><label for="ya">ya</label><br>
+               <input type="radio"  name="WIBU"  value="tidak"><label for="tidak">tidak</label><br>
+               <h4>Anime favorit : </h4>
+               <input type="checkbox" name="Anime" value="Boku No Pico"> <label for="Boku No Pico">Boku No Pico</label> <br>
+               <input type="checkbox" name="Anime" value="Yarichin"> <label for="Yarichin">Yarichin</label> <br>
+
+               <h4><U><i>Dropdown List</i></U></h4>
+               <p><b>Pilih jurusanmu!</b></p>
+               <select name="Jurusan">
+                  <option value="Networking">Networking</option> 
+                  <option value="Desain Grafis">Desain Grafis</option>
+                  <option value="Programming">Programming</option>
+               </select>
+
+               <h4><u><i>Upload File</i></u></h4>
+               <P><b>Foto Waifumu!</b></P>
+               <input type="file" name="Foto" value="upload_foto"> 
+               
+               <br>
+
+               <p><b><label for="julukan waifu"> julukan waifu kalian :</label></b> <input type="text" id="julukan waifu" for="julukan wafu"></p>
+
+               <p><b><label for="deskripsi">Deskripsikan waifu kalian :</label></b> </p>
+
+               <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea> 
+               
+               <br>
+
+               <input type="button"name="Submit"  value="Submit"> <br>
+ 
+            </form>
+
+            <hr>
+
+            <h2 id="image">Image and Videos</h2>
+
+            <!-- untuk memunculkan gambar diperlukan <img src="img/..." height="...px" width="...px atau 100%" alt="" title=""></img> -->
+            <!-- height itu tinggi gambar, semakin besar angka height semakin besar pula gambarnya begitupun sebaliknya -->
+            <!-- width itu lebar gambar, semakin besar angka width semakin besar pula gambarnya begitupun sebaliknya -->
+            <!-- alt itu untuk memunculkan tulisan jika gambar belum selesai load -->
+            <!-- title itu untuk memunculkan tulisan jika mouse diatas gambar -->
+            <!-- top untuk menaruh gambar di atas dan tulisan pembuka di sampingnya -->
+            <!-- bottom untuk menaruh gambar di bawah dan tulisan penutup di sampingnya -->
+            <!-- left untuk menaruh gambar di kiri dan tulisan pembuka di atasnya -->
+            <!-- right untuk menaruh gambar di kanan dan tulisan penutup di atasnya -->
+            <!-- middle untuk menaruh gambar di tengah dan tulisan awalnya di sampingnya -->
+            <!-- width 100% untuk memperbesar gambar dan mennyesuaikan gambar ketika dalam mode melayang -->
+            <!-- autoplay untuk langsung memulai video saat masuk ke laman website-->
+            <!-- preload ada tiga macam yaitu : none, untuk memberikan loading sebentar saat video di play. Auto,  video akan mulai diunduh secara otomatis begitu kamu membuka halaman tersebut, tanpa perlu menunggu kamu menekan tombol putar.  metadata, paling sering digunakan karena dari thumbnail sudh memberikan informasi lengkap mengenai menit video dan lain-lain  -->
+            <!-- controls itu sangat penting bagi video maupun audio, jika tidak ada controls maka sebuah post tidak bisa diplay atau sama saja sepeti sampah -->
+            <!-- <audio src="mp3" controls preload=""></audio>-->
+             <!-- loop digunakan untuk mengulang ulang video atau audio jika sudah selesai -->
+            <!-- central untuk digunakan di tag <h></h> ataupun judul dipadukan dengan gambar, funsi utamanya untuk menaruh tulisan di tengah-->
+
+
+
+
+            <img src="img/Wethering with you.jpg" height="500px" width="900px" alt="Wethering with you.jpg" title="Anime Tenki No Ko" ></img>
+
+            <br>
+
+            <p><img src="img/Violet Evergarden.jpg" alt="Johan's Wife.jpg" title="Violet belongs only to Johan" align:"center" width="500" height="auto"></img> <b><i>Violet Evergarden is my Wife.Violet has a stunning appearance with long blonde hair, piercing blue eyes, and always neat clothes. Her extraordinary beauty attracts a lot of attention from anime fans. However, Violet's beauty is not only from her physical appearance. She is a strong and brave character, possessing true heroic qualities that captivate the audience. Violet's strong personality and desire to grow into a better individual is one of the aspects that makes her so appealing. She also shows a deep understanding of various aspects of life and human feelings </i></b></p>
+
+            <br>
+            
+            <img src="img/tokyo 2077.jpg" height="500px" width="800px" alt="Tokyo Cyberpunk 2077.jpg" title="Tokyo Cyberpunk 2077" align="bottom"></img>
+
+            <p><video src="Video/An9UysUGnD6prEy9mBWPbYewoGlQ_pzc8A6aiJ-5R79pWSlCKGdBh0oA6z5joJS4TmX6pZJL0WIqxeUsVN3Z46OB.mp4" width="800px" height="500px" controls poster="img/Violet Evergarden.jpg" preload="metadata" title="Have good friends"></video></p>
+
+            <p><video src="Video/VID-20240725-WA0039.mp4" width="800px" height="500px" controls preload="metadata" title="Admin dan Linnichi"></video></p>
+
+            <p><video src="Video/IGDownloader.App_3371809364968457199.mp4" controls width="800px" height="500px" preload="metadata" title="stay life"></video></p>
+
+            <hr>
+
+            <h2 id="mp3">Musik Audio</h2>
+
+            <p><b><u><i>1. Cheating on You</i></u></b></p>
+            <p>  <audio src="MP3/Y2meta.app - [Short AMV] Cheating on You - Charlie Puth ~ Bunny Girl Senpai (320 kbps).mp3" controls preload="auto"></audio> </p>
+            <p><b><u><i>2. Metamorphosis 3 slowed</i></u></b></p>
+            <p><audio src="MP3/Y2meta.app - INTERWORLD - METAMORPHOSIS 3 (slowed + reverb) (320 kbps).mp3" controls preload="none"></audio></p>
+            <p><b><u><i>3. Suzume No Tojimari</i></u></b></p>
+            <p><audio src="MP3/y2mate.com - Suzume no Tojimari すずめ Theme Song Suzume Ru Ru RuRuRuRu loop_320kbps.mp3" controls preload="metadata"></audio></p>
+
+                   
+
+            
+
+            
+
+            
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+   </body>
+
+</html>
+  

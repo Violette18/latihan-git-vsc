@@ -1,0 +1,273 @@
+.eksternal{
+    color: rgb(150, 250, 100);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.saudara{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+} /* universal selector */
+
+h3{
+    color: crimson;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic
+} /* type selector */
+
+.Anime{
+   color: #c22961;
+   font-weight: bold;
+   font-size: xx-large;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 30px;
+   text-decoration: underline;
+ } /*class selector */
+
+ #SUS{
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+  }
+  #para{
+    font-size: larger;
+    background-color: aqua;
+  } /* id selector */
+
+  p>b{
+    color: yellow;
+  }
+
+  li>b{
+    color: chartreuse;
+  }  /* child selector */
+
+  p b{
+    color: yellow;
+  }  /* decendant selector, apapun ada bold di dalam paragraf, mau dia diposisi langsung, child selector, atau cucunya, atau buyutnya itu langsung dipilih oleh decendant selector atau biasa disebut universal*/
+
+  p+h3{
+    color: aqua;
+  } /* adjacent sibling selector */
+
+  h3~p{
+    color: violet;
+    font-family: Arial, Helvetica, sans-serif;
+  } /* general sibling selector */
+
+  .list{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .intro{
+    border: 1px burlywood;
+    background-color: hsl(197, 50%, 50%);
+    padding: 10px;
+  } 
+  /* hue - 0sampai 360 */
+  /* saturasi - 0% sampai 100% */
+  /* lightness - 0% sampai 100% */
+
+  .ik{
+    font-size: xx-large;
+    color: rgba(255, 0, 119, 0.8);
+    background-color: hsla(106, 84%, 49%, 0.5);
+    padding: 10px
+  }
+
+  .ir{
+    font-size: large;
+    color: #FF007F;
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 2px dashed #FF007F;
+    padding: 10px;
+  }
+
+  #lorem{
+    color: brown;
+  }
+
+  .fucek{
+    color: darkmagenta;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .overflow{
+    overflow: hidden;
+    height: 100px;
+    width: 200px;
+  }
+
+  .yarichin{
+    overflow: scroll;
+    height: 100px;
+    width: 200px;
+  }
+
+
+  .fav{
+    height: auto;
+    width: 1000px;
+    background-color: peachpuff;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 80px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .fav .sinopsis{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .Animespx{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(255, 0, 242, 0.884);
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    margin-top: auto
+  }
+
+  .gambar{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: auto;  
+  }
+
+  .credit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  /* capitalize berfungsi untuk memperbesar setiap huruf depan dari sebuah kata-kata */
+  /* lowercase berfungsi untuk mengecilkan setiap huruf depan dari sebuah kata-kata */
+
+  #baca{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+  }
+
+  .link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgb(29, 184, 184);
+    font-size: 20px;
+  }
+
+  a.link:hover{
+    color: rgba(255, 0, 221,0.774);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+a.link:active{
+  color: rgb(9, 255, 0);
+ text-decoration: none
+}
+
+a.link:visited{}
+
+  .sinopsis1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .sinopsis{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1,2;
+  }
+
+  .daftar_chapter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .daftar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    padding: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: auto
+  }
+
+  .heading{
+   min-width: 150px;
+   background-color: #c22961;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+ .link_chapter{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgb(29, 184, 184);
+    font-size: 18px;
+ }
+
+ a.link_chapter:hover{
+  color: rgba(255, 0, 221,0.774);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a.link_chapter:active{
+color: rgb(9, 255, 0);
+text-decoration: none
+}
+
+
+
+
+
+  
