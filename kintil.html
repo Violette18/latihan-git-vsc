@@ -464,25 +464,6 @@
                <p style="font-size: large; margin-top: auto;">belum terbukti bisa poto langsung lewat kamera laptop</p>             
             </div>
 
-            <!-- buat ngaca di laptop ini caranya :
-
-             <video id="videoElement" autoplay></video>
-
-<script>
-  const video = document.querySelector("#videoElement");
-
-  if (navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices.getUserMedia({ video: true })
-      .then((stream) => {
-        video.srcObject = stream;
-      })
-      .catch((err) => {
-        console.log("Something went wrong!", err);
-      });
-  }
-</script>
-      
-            -->
 
             <div id="html-7" style="margin-top: 10px;font-family: Arial, Helvetica, sans-serif; font-size: x-large;">
                <p>Dialog</p>
@@ -510,6 +491,44 @@
                   dialog.close();
                });
             </script>
+
+             <video id="video" autoplay></video>
+    <button id="startButton">Aktifkan Kamera</button>
+    <button id="stopButton" disabled>Matikan Kamera</button>
+
+    <script>
+        // Ambil elemen video dan tombol
+        const video = document.getElementById('video');
+        const startButton = document.getElementById('startButton');
+        const stopButton = document.getElementById('stopButton');
+
+        // Tambahkan event listener untuk tombol aktifkan
+        startButton.addEventListener('click', async () => {
+            try {
+                // Aktifkan kamera
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                video.srcObject = stream;
+
+                // Aktifkan tombol matikan dan nonaktifkan tombol aktifkan
+                stopButton.disabled = false;
+                startButton.disabled = true;
+            } catch (error) {
+                console.error('Gagal mengaktifkan kamera:', error);
+            }
+        });
+
+        // Tambahkan event listener untuk tombol matikan
+        stopButton.addEventListener('click', () => {
+            // Matikan kamera
+            video.srcObject.getTracks().forEach(track => track.stop());
+
+            // Nonaktifkan tombol matikan dan aktifkan tombol aktifkan
+            stopButton.disabled = true;
+            startButton.disabled = false;
+        });
+    </script>
+
+    
 
             
 
