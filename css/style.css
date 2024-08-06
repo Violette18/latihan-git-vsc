@@ -366,3 +366,93 @@ text-decoration: none
   /*berurutan = atas, kanan, bawah, kiri*/
   border-width: 5px 10px 15px 20px;
 }
+
+
+.border-tes{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid;
+  font-size: x-large;
+  color: black;
+  font-weight: bold
+}
+
+.padding1{
+  padding: 20px;
+  background-color: greenyellow;
+}
+
+.parates{
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+.padding2{
+  padding: 20px 50px;
+  background-color: cyan;
+}
+/* 20 atas bawah, 50 kiri kanan */
+
+.padding3{
+  padding: 5px 20px 50px;
+  background-color: lightblue;
+}
+/* 5 atas, 20 kiri kanan, 50 bawah */
+
+.padding4{
+  padding: 21px 34px 55px 89px;
+  background-color: lightgreen;
+}
+/* 21 atas, 34 kanan, 55 bawah, 89 kiri */
+/* btw bisa dicustom seperti=
+padding-top: 21px;
+padding-right: 34px;
+padding-bottom: 55px;
+padding-left: 89; */
+
+
+.parates-m{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.dekor{
+  border: 5px solid;
+  background-color: rgb(8, 226, 179);
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.margin1{
+  margin: 20px;
+  background-color: aquamarine;
+}
+/* untuk semua sisi */
+/* klo auto kiri kanan maka akan sama seperti center yang berada di tengah-tengah */
+
+.margin2{
+  margin: 10px 20px;
+  background-color: chartreuse;
+}
+/* 10 atas bawah,20 kiri kanan */
+
+.margin3{
+  margin: 15px auto 30px;
+  background-color: chocolate;
+}
+/* 15 atas, 25 kiri kanan, 30 bawah */
+
+.margin4{
+  margin: 25px 35px 40px auto;
+  background-color: coral;
+}
+/* 25 atas, 35 kanan, 40 bawah, 50 kiri */
+/* btw bisa dicustom seperti=
+margin-top: 20px;
+margin-right: 35px;
+margin-bottom: 40px;
+margin-left: auto;
+*/
