@@ -130,6 +130,7 @@ h3{
     border-radius: 10px;
     display: block;
     margin: auto;
+    flex-wrap: wrap;
   }
 
   .fav .sinopsis{
@@ -585,3 +586,83 @@ margin-left: auto;
   /* border */
   border: 4px solid violet;
 }
+
+
+.pdisplay{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+
+.bdisplay{
+  color: crimson;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+}
+
+.pinline{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inline{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: chocolate;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+/* inline */
+.sinline{
+  display: inline;
+}
+
+/* block */
+.block{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: chocolate;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  display: block;
+}
+
+/* inline-block */
+.inline-block{
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: chocolate;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+/* flex */
+
+.flex-container{
+  display: flex;
+  background-color: aqua;
+  /* display flex */
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item{
+  background-color: azure;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+}
+
+
+
+
