@@ -229,16 +229,15 @@ a.link:visited{}
 
   .daftar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: bisque;
-    padding: 30px;
+    display: block;
+    margin: auto;
     word-spacing: 2px;
-    letter-spacing: 1px;
-    margin-top: auto
-  }
+    letter-spacing: 1px;}
 
   .heading{
    min-width: 150px;
    background-color: #c22961;
+   border: solid 1px black;
   }
 
   .bold{
@@ -252,7 +251,7 @@ a.link:visited{}
  .link_chapter{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    color: rgb(29, 184, 184);
+    color: crimson;
     font-size: 18px;
  }
 
@@ -264,6 +263,27 @@ a.link:visited{}
 a.link_chapter:active{
 color: rgb(9, 255, 0);
 text-decoration: none
+}
+
+.kisah1{
+  background-color: bisque;
+  padding: 10px 10px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.kisah2{
+  background-color: rgb(233, 204, 166);
+  padding: 10px 10px;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.kisah3{
+  background-color: bisque;
+  padding: 10px 10px;
+  text-align: center;
+  border: solid 1px black;
 }
 
 
@@ -456,3 +476,112 @@ margin-right: 35px;
 margin-bottom: 40px;
 margin-left: auto;
 */
+
+
+.box1{
+  height: 100px;
+  width: 300px;
+  background-color: #bbbbaa;
+}
+
+.box1 p{
+  height: 75%;
+  width: 75%;
+  background-color: bisque;
+}
+
+.box2{
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+}
+
+.box2 h2{
+  width: 25%;
+  background-color: lightblue;
+}
+
+.box2 p{
+  width: 75%;
+  background-color: lightgreen;
+}
+
+
+/* ukuran maksimumdan minimum dari box */
+.td{
+  background-color: crimson;
+}
+
+.deskripsi{
+  min-width: 450px;
+  max-width: 500px;
+  background-color: orange;
+}
+
+.jdl{
+  font-family: Arial, Helvetica, sans-serif;
+  color: dodgerblue;
+}
+
+.satu{
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.dua{
+  height: 100px;
+  width: 200px;
+  overflow: scroll;
+  color: #000000;
+}
+
+
+/* Border, Padding, margin*/
+.box4{
+  width: fit-content;
+  height: fit-content;
+  background-color: lightgreen;
+  font-size: xx-large;
+  
+  /* margin */
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+  /* padding */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  /* border */
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.hello b{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: 4px solid cyan;
+}
+
+.hello{
+  background-color: coral;
+  width: fit-content;
+
+  /* padding */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  /* margin */
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  /* border */
+  border: 4px solid violet;
+}
